@@ -46,6 +46,7 @@ def feedback():
 @auth_basic(check_credentials)
 def saveFeedback(db, config):  # save user information (user_id is key in tables) as JSON string
     user_id = int(request.get_cookie("user_id"))
+    user_id = 1
 
     db.execute('CREATE TABLE IF NOT EXISTS feedback (user_ID, feedback_json TEXT);')
     db.execute('INSERT INTO feedback VALUES (?,?);', (user_id, json.dumps(dict(request.forms))))
