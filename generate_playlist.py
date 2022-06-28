@@ -2,6 +2,7 @@ import os, glob
 from typing import List
 
 NBSEQ = 5
+BATCH_ID = 8
 
 def getSequences(sequence_dir:str,videoSuffix:str)->List[str]:
     """Returns a list of file names in specified directory that respect the given extension 
@@ -28,7 +29,7 @@ def generatePlaylist(pathYUV="E:/SequencesVFR_FRUC/YUV/",
     """
     #Get the YUV sequences
     sequences_all = getSequences(sequence_dir=pathYUV, videoSuffix="yuv")
-    sequences_test = sequences_all[:NBSEQ]
+    sequences_test = sequences_all[NBSEQ*BATCH_ID:NBSEQ*(BATCH_ID+1)]
 
     gray = "./videos/gray.mkv"
 

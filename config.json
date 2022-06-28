@@ -1,5 +1,5 @@
 {
-  "player":  "thirdparty\\mpv-x86_64-20180429-git-dc16d85\\mpv.exe --cursor-autohide=0 --osc=no --no-input-default-bindings --ontop --fs {filename}",
+  "player":  "thirdparty\\mpv-x86_64-20180429-git-dc16d85\\mpv.exe --cursor-autohide=0 --no-input-default-bindings --osc=no --ontop --fs {filename}",
   "player_linux": "mpv --fs --ontop {filename}",
   "http_user_name": "bcom",
   "http_user_password": "123",
@@ -16,5 +16,6 @@
   "demographics_form": false,
   "gray_video": "videos/gray.mkv",
   "no_video_playback": false,
-  "question": "What is your opinion of the video quality?"
+  "question": "What is your opinion of the video quality?", 
+  "misc":""
 }
