@@ -8,6 +8,10 @@ Don't change the form attributes "action" and "method"-->
 
       <div class="funkyradio">
         <div class="funkyradio-success">
+          <input type="radio" name="radio" id="radio6" value="6" required/>
+          <label for="radio6"><h5>6 - Perfect</h5></label>
+        </div>
+        <div class="funkyradio-success">
           <input type="radio" name="radio" id="radio5" value="5" required/>
           <label for="radio5"><h5>5 - Excellent</h5></label>
         </div>
@@ -26,6 +30,10 @@ Don't change the form attributes "action" and "method"-->
         <div class="funkyradio-success">
           <input type="radio" name="radio" id="radio1" value="1" required/>
           <label for="radio1"><h5>1 - Bad</h5></label>
+        </div>
+        <div class="funkyradio-success">
+          <input type="radio" name="radio" id="radio0" value="0" required/>
+          <label for="radio0"><h5>0 - Atroceous</h5></label>
         </div>
       </div>
 
