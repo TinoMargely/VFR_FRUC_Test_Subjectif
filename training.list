@@ -1,0 +1,3 @@
+../videos/TRAINING/GondolaPart1_LossLess.mp4 | ./videos/gray.mkv | ../videos/TRAINING/GondolaPart1_30_rife-ncnn-v23_60.mp4 | ./videos/gray.mkv | ../videos/TRAINING/GondolaPart1_LossLess.mp4 | ./videos/gray.mkv | ../videos/TRAINING/GondolaPart1_30_rife-ncnn-v23_60.mp4 
+../videos/TRAINING/BricksLeaves_LossLess.mp4 | ./videos/gray.mkv | ../videos/TRAINING/BricksLeaves_15_rife-ncnn-v23_60.mp4 | ./videos/gray.mkv | ../videos/TRAINING/BricksLeaves_LossLess.mp4 | ./videos/gray.mkv | ../videos/TRAINING/BricksLeaves_15_rife-ncnn-v23_60.mp4 
+../videos/TRAINING/1_LossLess.mp4 | ./videos/gray.mkv | ../videos/TRAINING/1_30.mp4 | ./videos/gray.mkv | ../videos/TRAINING/1_LossLess.mp4 | ./videos/gray.mkv | ../videos/TRAINING/1_30.mp4 
